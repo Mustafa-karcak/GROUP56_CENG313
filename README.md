@@ -4,6 +4,7 @@ CENG313 Introduction to Data Science, Fall 2026 term project.
 
 ## Team
 | Name | Student ID | GitHub |
+| --- | --- | --- |
 | Mustafa Karçak | 2311808054 | @Mustafa-karcak |
 
 ## Competition
