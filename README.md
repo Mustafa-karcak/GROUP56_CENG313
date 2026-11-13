@@ -1,4 +1,5 @@
 # GROUP56_CENG313 - DRW Crypto Market Prediction
+Repository: https://github.com/ceng313-2026/GROUP56_CENG313
 
 CENG313 Introduction to Data Science, Fall 2026 term project.
 
@@ -45,10 +46,11 @@ ridge on the 50 features most correlated with label, ridge on all features.
 Best baseline: Ridge on the top-50 features. This is the baseline for Assignment 2.
 
 ## How to run
-1. Open `assignment1_eda_baseline.ipynb` in Google Colab.
-2. Upload your `kaggle.json` when asked (Kaggle > Settings > API > Create Legacy API Key).
+1. (Local run only) `pip install -r requirements.txt`
+2. Open `assignment1_eda_baseline.ipynb` in Google Colab.
+3. Upload your `kaggle.json` when asked (Kaggle > Settings > API > Create Legacy API Key).
    You must have joined the competition on Kaggle.
-3. Run all cells. The notebook downloads the data, clones this repository and imports the helper code in `src/`:
+4. Run all cells. The notebook downloads the data, clones this repository and imports the helper code in `src/`:
    - `src/data.py`: loading (float32 to save memory) and cleaning helpers
    - `src/utils.py`: EDA helpers (missing / infinite / constant columns, correlations)
    - `src/models.py`: time-based split, Pearson metric, baseline models
@@ -57,6 +59,8 @@ Best baseline: Ridge on the top-50 features. This is the baseline for Assignment
 | Date | Model | Private score | Public score |
 | --- | --- | --- | --- |
 | 2026-11-08 | Ridge, top-50 features | 0.08866 | 0.05181 |
+
+Competition closed: late submission. Screenshot in `submissions/kaggle_assignment1.png`.
 
 ## Progress log
 - 2026-11-06: Created the repository and src structure; Kaggle data download; first look; data quality and sniff tests;
