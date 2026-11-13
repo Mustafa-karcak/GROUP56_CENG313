@@ -1,4 +1,5 @@
-# Byte-compiled / optimized / DLL files
+data/
+submission.csv # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
 *$py.class
